@@ -1,11 +1,9 @@
-This is a minimal example of a Jekyll-based website using **knitr** and R
-Markdown. The interesting bit of this repo is that you can actually serve the
-Jekyll website locally with R, and R Markdown posts can be compiled
-automatically, with the web pages automatically refreshed as well.
+This is (one version of) my in-development blog site.
+It is based on forking [knitr-jekyll](http://yihui.name/knitr-jekyll)
+repo,   
+which allows R Markdown posts to be compiled
+automatically.
 
-The original website was created from `jekyll new .` under the root directory,
-which was part of the [official Jekyll repo](https://github.com/jekyll/jekyll).
-The additional code (R, Makefile) in this repo is under the MIT License, and the
-[blog post](http://yihui.name/knitr-jekyll/2014/09/jekyll-with-knitr.html) I
-wrote is under the [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+All my blog posts are under the
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 International License.
