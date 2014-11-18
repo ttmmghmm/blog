@@ -2,7 +2,7 @@
 <html>
 
   {% include head.html %}
-
+  {% include mathjax.html %}	
   <body>
 
     {% include header.html %}
@@ -12,9 +12,8 @@
         {{ content }}
       </div>
     </div>
-
+    {% include comments.html %}
     {% include footer.html %}
-
   </body>
 
 </html>

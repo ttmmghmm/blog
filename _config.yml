@@ -10,4 +10,4 @@ github_username:  stephens999
 permalink: /:year/:month/:title.html
 
 # Build settings
-markdown: kramdown
+markdown: kramdown 
