@@ -1,12 +1,12 @@
 # Site settings
-title: It's Not Normal
-email: mstephens@uchicago.edu
+title: Things that make me go hmm
+email: ttmmghmm+github.io@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   A blog about Data, Science, and Statistics
+   A blog about random stuff, mostly linked to R.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://stephens999.github.io" # the base hostname & protocol for your site
-twitter_username: mstephens999
-github_username:  stephens999
+url: "http://ttmmghmm.github.io" # the base hostname & protocol for your site
+twitter_username: ttmmghmm
+github_username:  ttmmghmm
 permalink: /:year/:month/:title.html
 
 # Build settings
