@@ -28,7 +28,7 @@ install.packages(
 )
 ```
 
-Of course, you have to install [Jekyll](http://jekyllrb.com) as well. For Windows users, you have to make sure `jekyll` can be found from your environment variable `PATH`, i.e., R can call it via `system('jekyll')`. This is normally not an issue for Linux or Mac OS X users (`gem install jekyll` is enough).
+Of course, you have to install [Jekyll](http://jekyllrb.com) as well. For Linux or Mac OS X users (`gem install jekyll` is enough).
 
 ## R code chunks
 
@@ -44,7 +44,7 @@ knitr::kable(head(mtcars))
 (function() {
   if (TRUE) 1 + 1  # a boring comment
 })()
-names(formals(servr::jekyll))  # arguments of the jekyll() function
+# names(formals(servr::jekyll))  # arguments of the jekyll() function
 ```
 
 Just to test inline R expressions[^2] in **knitr**, we know the first element in `x` (created in the code chunk above) is `r x[1]`. You can certainly draw some graphs as well:
